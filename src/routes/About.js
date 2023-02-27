@@ -1,7 +1,16 @@
+import Hero from '../components/Hero';
+import Navbar from '../components/Navbar';
+import AboutImg from '../assests/night.jpg'
+
 function About() {
     return (
       <>
-        <h1>This is About</h1>
+      <Navbar />
+      <Hero 
+      cName="hero-mid"
+      heroImg={AboutImg}
+      title="Aboute"
+      btnClass="hide"/>
       </>
     );
   }
