@@ -9,7 +9,7 @@ function About() {
       <Hero 
       cName="hero-mid"
       heroImg={AboutImg}
-      title="Aboute"
+      title="About"
       btnClass="hide"/>
       </>
     );

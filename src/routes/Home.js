@@ -1,6 +1,7 @@
 import Destination from '../components/Destination';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
+import HomeImg from '../assests/12.jpg'
 
 function Home() {
   return (
@@ -8,7 +9,7 @@ function Home() {
     <Navbar />
       <Hero 
       cName="hero"
-      heroImg="https://github.com/tech2etc/React-Trippy-Tour-Website-Template/blob/main/src/assets/12.jpg?raw=true"
+      heroImg={HomeImg}
       title="Your Journy Your Story"
       text="Choose Your Favourite Destination"
       buttonText="Travel Plan"
