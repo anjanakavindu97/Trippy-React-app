@@ -1,6 +1,7 @@
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import AboutImg from '../assests/night.jpg'
+import Footer from "../components/Footer";
 
 function About() {
     return (
@@ -10,7 +11,9 @@ function About() {
       cName="hero-mid"
       heroImg={AboutImg}
       title="About"
-      btnClass="hide"/>
+      btnClass="hide"
+      />
+          <Footer/>
       </>
     );
   }

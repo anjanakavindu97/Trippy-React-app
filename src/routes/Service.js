@@ -1,6 +1,7 @@
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import AboutImg from '../assests/night.jpg'
+import Footer from "../components/Footer";
 
 function Service() {
     return (
@@ -10,7 +11,9 @@ function Service() {
       cName="hero-mid"
       heroImg={AboutImg}
       title="Service"
-      btnClass="hide"/>
+      btnClass="hide"
+      />
+          <Footer/>
       </>
     );
   }
