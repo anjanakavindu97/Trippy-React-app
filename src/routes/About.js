@@ -2,6 +2,7 @@ import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import AboutImg from '../assests/night.jpg'
 import Footer from "../components/Footer";
+import Aboutus from "../components/AboutUs";
 
 function About() {
     return (
@@ -13,6 +14,7 @@ function About() {
       title="About"
       btnClass="hide"
       />
+          <Aboutus/>
           <Footer/>
       </>
     );
